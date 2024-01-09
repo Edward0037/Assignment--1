@@ -19,8 +19,8 @@ ul {
 
 .banner {
     background-image: url(../images/Space-Style-Happy-New-Year-Wallpaper-2024.png);
-    margin: 50px 140px;
-    min-height: 100vh;
+    margin: 60px 140px;
+    min-height: 600px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -29,7 +29,7 @@ ul {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: linear-gradient(180deg, #070211 0%);
+
 
     1x
 }
@@ -48,7 +48,7 @@ ul {
     font-size: 100px;
     font-weight: 900;
     line-height: 95px;
-    margin-bottom: 20pxSpx;
+    margin-bottom: 20px;
 }
 
 .percent-off {
@@ -62,9 +62,186 @@ ul {
 }
 
 .percent-off h1 {
-    color: #F00;   
+    color: #F00;
     font-family: Inter;
-    font-size: 88px;   
+    font-size: 88px;
     font-weight: 700;
+    margin-top: 50px;
+
+}
+
+.percent-off p {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 45px;
+}
+
+.percent-off h3 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.welcome-banner {
+    background-image: url(../images/Vectorrr.png);
+    margin: 100px 160px;
+    min-height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.welcome-text h1 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    margin-left: 126px;
+}
+
+.welcome-text p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+    margin-left: 126px;
+}
+
+.welcome-text h3 {
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 158px;
+
+}
+
+.welcome-img {
+    margin-right: 138px;
+    margin-top: 68px;
+    margin-bottom: 68px;
+}
+
+.address-section {
+    background-color: mistyrose;
+    margin: 100px 160px;
+    min-height: 480px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+
+.address-info {
+    text-align: center;
+    padding: 107px 386px;
+}
+
+.same-color {
+    color: #F00;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.address-info h3 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.address-info button {
+    border-radius: 8px;
+    background: #F00;
+    padding: 16px 32px;
+    color: #FFF;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: Inter;
+    margin-top: 48px;
+}
+.wrapper h5{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.wrapper h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px; 
+    font-weight: 900; 
+    text-transform: capitalize;
+    margin-bottom: 22PX;
+}
+.wrapper p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 48px;
+}
+.portfolio-section{
+    padding: 50px 0;
+    width: 82%;
+    margin: auto;
+}
+.portfolio-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 16px;
+}
+.design{
+    width: 30%;
+    margin-bottom: 50px;
     
+    position: relative;    
+}
+.design::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F00;
+    opacity: 0;
+
+}
+.design:hover::before{
+    opacity: .5;
+}
+.design img{
+    width: 100%;
+}
+
+.design img{
+
 }
